@@ -291,11 +291,16 @@ body.dark-mode .hero-socials .social {
   flex-wrap: wrap;
   gap: 30px;
 }
-
+.who-photo{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 .who-photo img {
-  justify-items: center;
-  width: 125px;
   
+  width: 500px;
+  max-width: 90%;
   border-radius:12px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     
@@ -501,4 +506,3 @@ body.dark-mode .hero-socials .social {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-15px); }
 }
-
